@@ -1,22 +1,3 @@
 {
-  "replaceSpecialChars": {
-    "reservedCharacters": ["<", ">", ":", "\"", "/", "\\", "|", "?", "*"],
-    "replacementCharacter": "_"
-  },
-  "removeTrailingPeriods": {
-    "fallbackName": "empty-filename"
-  },
-  "removeSpecialChars": {
-    "reservedCharacters": ["<", ">", ":", "\"", "/", "\\", "|", "?", "*"],
-    "fallbackName": "empty-filename"
-  },
-  "removeSpaces": {
-    "fallbackName": "empty-filename"
-  },
-  "trimSpaces": {
-    "fallbackName": "empty-filename"
-  },
-  "replaceSpaces": {
-    "replacementCharacter": "_"
-  }
+  "reservedCharacters": ["<", ">", ":", "\"", "/", "\\", "|", "?", "*", " "]
 }
